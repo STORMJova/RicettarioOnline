@@ -2,6 +2,8 @@
 
 Un'applicazione web full-stack sviluppata per gestire, condividere e salvare le proprie ricette preferite. Il progetto integra un'interfaccia utente responsive e accessibile con un backend solido basato su architettura RESTful e un database relazionale.
 
+![Immagine Schermata Ricette Ricettario](./docs/RicettarioUI.png)
+
 ## ✨ Funzionalità Principali
 * **Autenticazione Sicura:** Sistema di registrazione e login gestito tramite token JWT (JSON Web Token).
 * **Gestione Ricette (CRUD):** Creazione, visualizzazione, modifica ed eliminazione delle ricette, con tracciamento dell'autore (`id_autore`).
