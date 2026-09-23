@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="it">    
+<head>
+    <title>Aggiungi Ricetta - Ricettario</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stile/stile.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/scripts.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="hamburger" id="hamburger-btn">☰</div>
+            <div class="mobile-title">RICETTARIO</div>
+            
+            <ul class="nav-links">
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="ricette.html">RICETTE</a></li>
+                <li><a href="chi_siamo.html">CHI SIAMO</a></li>
+                <li><a href="contatti.html">CONTATTI</a></li>
+            </ul>
+            <div class="user-menu">
+                <a href="login.html" class="user-icon"><img src="images/login.jpg" alt="Login"></a>
+            </div>
+        </nav>
+        <h1>Ricettario</h1>
+    </header>
+
+    <main class="login-page"> 
+        <div class="login-card card-aggiungi-ricetta"> 
+            <h2 class="login-title">Condividi la tua Ricetta</h2>
+            <p class="login-subtitle">Aggiungi il tuo piatto forte al nostro catalogo!</p>
+
+            <p id="messaggio-aggiungi" class="error-msg"></p>
+
+            <form id="form-aggiungi-ricetta">
+                <div class="input-group">
+                    <label for="nome-ricetta">Nome della Ricetta</label>
+                    <input type="text" id="nome-ricetta" name="nome" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="immagine-ricetta">Foto del Piatto</label>
+                    <input type="file" id="immagine-ricetta" name="immagine" accept="image/*" required>
+                </div>
+                
+                <div class="input-group">
+                    <label for="ingredienti-ricetta">Ingredienti</label>
+                    <textarea id="ingredienti-ricetta" name="ingredienti" rows="3" required></textarea>
+                </div>
+                
+                <div class="input-group">
+                    <label for="preparazione-ricetta">Preparazione</label>
+                    <textarea id="preparazione-ricetta" name="preparazione" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn-submit">PUBBLICA RICETTA</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#">Advertise</a></li>
+                <li><a href="#">Cookie Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

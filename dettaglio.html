@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>Ricettario Online</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stile/stile.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/scripts.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="hamburger" id="hamburger-btn">☰</div>
+            <div class="mobile-title">RICETTARIO</div>
+            
+            <ul class="nav-links">
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="ricette.html">RICETTE</a></li>
+                <li><a href="chi_siamo.html">CHI SIAMO</a></li>
+                <li><a href="contatti.html">CONTATTI</a></li>
+            </ul>
+            <div class="user-menu">
+                <a href="login.html" class="user-icon"><img src="images/login.jpg" alt="Login"></a>
+            </div>
+        </nav>
+
+    </header>
+
+    <main id="dettaglio-ricetta">
+        <h1 id="titolo-ricetta">Caricamento...</h1>
+        
+        <div class="dettaglio-container">
+            <img id="img-ricetta" src="" alt="">
+            
+            <div class="info-ricetta">
+                <h3>Ingredienti</h3>
+                <p id="ingredienti-ricetta"></p>
+                
+                <h3>Preparazione</h3>
+                <p id="preparazione-ricetta"></p>
+            </div>
+        </div>
+        
+        <div class="torna-indietro">
+            <a href="ricette.html">← Torna a tutte le ricette</a>
+        </div>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#">Advertise</a></li>
+                <li><a href="#">Cookie Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

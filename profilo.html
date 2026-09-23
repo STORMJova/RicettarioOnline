@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>Il Mio Profilo - Ricettario</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stile/stile.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="hamburger" id="hamburger-btn">☰</div>
+            <div class="mobile-title">RICETTARIO</div>
+            
+            <ul class="nav-links">
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="ricette.html">RICETTE</a></li>
+                <li><a href="chi_siamo.html">CHI SIAMO</a></li>
+                <li><a href="contatti.html">CONTATTI</a></li>
+            </ul>
+            <div class="user-menu" id="user-menu">
+                <a href="login.html" class="user-icon"><img src="images/login.jpg" alt="Login"></a>
+            </div>
+        </nav>
+        <h1>Ricettario</h1>
+    </header>
+
+    <main>
+        <section class="sezione-intro">
+            <h2 class="titolo-centrato">Area Personale</h2>
+            
+            <div class="saluto-container">
+                <h3 id="saluto-utente">Ciao, Chef! 👨‍🍳</h3>
+                <button id="btn-logout-profilo">
+                    Esci 🚪
+                </button>
+            </div>
+            
+            <p>Qui puoi gestire tutte le ricette che hai condiviso con la community.</p>
+        </section>
+
+        <section class="dashboard-azioni">
+            <a href="aggiungi-ricetta.html" class="btn-dashboard btn-verde">
+                ➕ Aggiungi Nuova Ricetta
+            </a>
+            <a href="preferiti.html" class="btn-dashboard btn-rosso">
+                ❤️ I Miei Preferiti
+            </a>
+        </section>
+
+        <h3 class="titolo-profilo-ricette">Le Ricette che hai pubblicato:</h3>
+        
+        <section class="griglia-ricette" id="mie-ricette-container"></section>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#">Advertise</a></li>
+                <li><a href="#">Cookie Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
