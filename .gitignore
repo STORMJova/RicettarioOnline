@@ -1,0 +1,19 @@
+# Dipendenze Node.js e file di lock
+node_modules/
+package-lock.json
+
+# Credenziali e variabili d'ambiente
+.env
+
+images/*
+!images/cucina.jpg
+!images/logo.jpg
+!images/chef1.jpg
+!images/chef2.jpg
+!images/chef3.jpg
+!images/login.jpg
+!images/ricetta*.jpg
+
+# File di sistema (Windows/macOS)
+.DS_Store
+Thumbs.db
